@@ -1,0 +1,45 @@
+/*Nav style*/
+
+.navbar-brand{
+  color: red!important;
+  font-family: fantasy;
+}
+.brandSec1{
+  font-family:sans-serif;
+  color: blue;
+}
+ .profilepic{
+  width:300px;
+}
+.pic_header_name{
+  padding: 10px;
+  background-color: rgba(215, 126, 126, 0.5);
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+.pic_header2_name{
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(144, 99, 35);
+}
+.card-body{
+  background-color:rgba(194, 154, 144, 0.5);
+}
+thead{
+  background-color: lightblue;
+  text-align: left;
+}
+tbody td:nth-child(1){
+  background-color: lightgray;
+  text-align: left;
+  font-weight: bold;
+}
+tbody td:nth-last-child(1){
+  text-align: left;
+  font-weight: lighter;
+}

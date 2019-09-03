@@ -21,46 +21,102 @@
             <a class="nav-link" href="more_about_me.html">More About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Table</a>
+            <a class="nav-link" href="#">Books Table</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
   <main class="container">
-    <div class="row">
-      <div class="col-md-4 card"><span class="pic_header_name">I'm a Lego</span>
-        <hr>
-        <img class="card-img-top profilepic" src="images\LegoProfilePicture2.jpg" alt="Lego Profile Picture 2">
+    <div class="row card">
+      <div class="card-header">
+          Book information
       </div>
-      <div class="col-md-8 card" ><span class="pic_header_name">My Interests and Hobbies</span><hr>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card" ><span class="pic_header2_name">My Interests</span>
-              <div class="card-body">
-                <ul>
-                  <li>Interest-1</li>
-                  <li>Interest-2</li>
-                  <li>Interest-3</li>
-                  <li>Interest-4</li>
-                </ul>
-              </div>
-            </div>
+      <table class="table table-striped table-hover">
+        <thead class="thstyleBook">
+          <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Year Published</td>
+            <td>Publisher</td>
+            <td>Page count</td>
+            <td>MSRP</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Title-1</td>
+            <td>Author-1</td>
+            <td>2009</td>
+            <td>Publisher-1</td>
+            <td>144</td>
+            <td>267</td>
+          </tr>
+          <tr>
+            <td>Title-2</td>
+            <td>Author-2</td>
+            <td>2018</td>
+            <td>Publisher-2</td>
+            <td>104</td>
+            <td>244</td>
+          </tr>
+          <tr>
+            <td>Title-3</td>
+            <td>Author-3</td>
+            <td>2019</td>
+            <td>Publisher-3</td>
+            <td>100</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <td>Title-4</td>
+            <td>Author-4</td>
+            <td>2019</td>
+            <td>Publisher-4</td>
+            <td>1004</td>
+            <td>202</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="row card">
+      <div class="card-header">
+          Add a row to the above table
+      </div>
+      <form class="bookForm">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" placeholder="Title">
           </div>
-          <div class="col-md-6">
-            <div class="card" ><span class="pic_header2_name">My Hobbies</span>
-              <div class="card-body">
-                <ul>
-                  <li>Hobby-1</li>
-                  <li>Hobby-2</li>
-                  <li>Hobby-3</li>
-                  <li>Hobby-4</li>
-                </ul>
-              </div>
-            </div>
+          <div class="form-group col-md-6">
+            <label for="author">Author</label>
+            <input type="text" class="form-control" id="author" placeholder="Author">
           </div>
         </div>
-      </div>
-    </main>
-  </body>
-  </html>
+        <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="yop">Year Published</label>
+          <input type="number" class="form-control" id="yop" placeholder="Year of Publishing">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="pub">Publisher</label>
+          <input type="text" class="form-control" id="pub" placeholder="Publisher Name">
+        </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="pagecount">Page Count</label>
+            <input type="number" class="form-control" id="pagecount">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="msrp">MSRP</label>
+            <input type="number" class="form-control" id="msrp">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Row</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,5 +1,8 @@
 /*Nav style*/
-
+a:hover{
+  text-decoration-color: red;
+  font-weight: bolder;
+}
 .navbar-brand{
   color: red!important;
   font-family: fantasy;
@@ -27,6 +30,15 @@
   text-align: center;
   background-color: rgb(144, 99, 35);
 }
+.card{
+  margin-top: 10px
+}
+.card-header{
+  color:purple;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 20px;
+}
 .card-body{
   background-color:rgba(194, 154, 144, 0.5);
 }
@@ -34,12 +46,23 @@
   background-color: lightblue;
   text-align: left;
 }
-tbody td:nth-child(1){
+.thstyleBook{
+  font-weight: bold;
+  background-color: rgb(163, 160, 164);
+}
+.bookForm label{
+  font-weight: 600;
+  margin-left: 5px
+}
+.bookForm input{
+  margin-left: 5px
+}
+.thstyle tbody td:nth-child(1){
   background-color: lightgray;
   text-align: left;
   font-weight: bold;
 }
-tbody td:nth-last-child(1){
+.thstyle tbody td:nth-last-child(1){
   text-align: left;
   font-weight: lighter;
 }

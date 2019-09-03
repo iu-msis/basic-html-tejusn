@@ -30,7 +30,7 @@
 .card-body{
   background-color:rgba(194, 154, 144, 0.5);
 }
-thead{
+.thstyle{
   background-color: lightblue;
   text-align: left;
 }
